@@ -1,0 +1,22 @@
+.animals {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid white;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.061);
+    position: relative;
+}
+
+.animal-img {
+    width: 200px;
+    height: 200px;
+}
+
+.heart-img {
+    max-width: 200px;
+    position: absolute;
+    bottom: 10px;
+}
